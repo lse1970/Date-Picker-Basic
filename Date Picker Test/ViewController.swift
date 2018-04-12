@@ -29,6 +29,9 @@ class ViewController: UIViewController {
         
         
     }
+    @IBAction func stop(_ sender: Any) {
+     view.backgroundColor = UIColor.white
+    }
     
     func updateTime()   {
         let date = Date()
